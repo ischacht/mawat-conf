@@ -1,0 +1,10 @@
+# Configuration file for lorafwd.
+
+# Disable lorawd (default value: no)
+DISABLE_LORAFWD="no"
+
+# The configuration file.
+CONFIGURATION_FILE="/etc/lorafwd.toml"
+
+# The extra arguments.
+EXTRA_ARGS="-vv"

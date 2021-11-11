@@ -1,0 +1,60 @@
+# Syntax:
+#[operator:MCC,MNC]
+#internet.AccessPointName=APN => only mandatory field
+#internet.Username=myUsername
+#internet.Password=myPassword
+#internet.AuthenticationMethod=[chap, pap] => default is chap
+#internet.Protocol=[ip, ipv6, dual] => default is ip
+#
+#[sim:ICCID]
+#pin=XXXX => SIM PIN of SIM identified by ICCID
+#phone=XXXX => PH-SIM PIN of SIM identified by ICCID
+#firstphone=XXXX => PH-FSIM PIN of SIM identified by ICCID
+#network=XXXX => PH-NET PIN of SIM identified by ICCID
+#netsub=XXXX => PH-NETSUB PIN of SIM identified by ICCID
+#service=XXX => PH-SP PIN of SIM identified by ICCID
+#corp=XXXX => PH-CORP PIN of SIM identified by ICCID
+#
+#[sim]
+#pin=XXXX => default SIM PIN
+#phone=XXXX => default PH-SIM PIN
+#firstphone=XXXX => default PH-FSIM PIN
+#network=XXXX => default PH-NET PIN
+#netsub=XXXX => default PH-NETSUB PIN
+#service=XXX => default PH-SP PIN
+#corp=XXXX => default PH-CORP PIN
+
+# Orange
+#[operator:208,01]
+#internet.AccessPointName=orange.m2m.spec
+
+# SFR
+#[operator:208,10]
+#internet.AccessPointName=websfr
+
+#Simple Moviles
+[operator:730,02]
+internet.AccessPointName = internet.simple
+internet.Username = 
+internet.Password = 
+internet.AuthenticationMethod = chap
+internet.Protocol = ip
+
+[sim]
+pin = 1111
+
+#Entel
+[operator:730,01]
+internet.AccessPointName = bam.entelpcs.cl
+internet.Username = entelpcs
+internet.Password = entelpcs
+internet.AuthenticationMethod = chap
+internet.Protocol = ip
+
+#WOM
+[operator:730,09]
+internet.AccessPointName = internet
+internet.Username = 
+internet.Password = 
+internet.AuthenticationMethod = chap
+internet.Protocol = ip

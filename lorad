@@ -1,0 +1,15 @@
+# Configuration file for lorad.
+
+#### Common configurations.
+
+# Disable lorad (default value: no)
+DISABLE_LORAD="no"
+
+# The extra arguments.
+EXTRA_ARGS="-vv"
+
+# The configuration file.
+CONFIGURATION_FILE="/etc/lorad/lorad.json"
+
+# The FPGA firmware binary file.
+FPGA_FIRMWARE_FILE="/usr/share/lorad/fpga_v61.bin"
